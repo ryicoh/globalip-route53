@@ -14,7 +14,7 @@ export AWS_SECRET_ACCESS_KEY=<アクセスキー>
 
 ### 普通に使う方法
 ```
-go get -uv github.com/ryicoh/globalip-route53
+go get -u -v github.com/ryicoh/globalip-route53
 $GOATH/bin/globalip-route53
 ```
 
