@@ -10,4 +10,4 @@ FROM alpine:3.10
 
 COPY --from=builder /build/globalip-route53 /usr/local/bin/
 
-CMD ["globalip"]
+CMD ["globalip-route53"]
