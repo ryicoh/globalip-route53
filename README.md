@@ -31,6 +31,6 @@ docker run -it --rm \
   -e AWS_ROUTE53_DOMAIN=<route53のドメインのID(14文字のID)> \
   -e AWS_ROUTE53_RECORD=<レコード名(www.sample.com)> \
   -e AWS_ACCESS_KEY_ID=<シークレットキー> \
-  AWS_SECRET_ACCESS_KEY=<アクセスキー> \
+  -e AWS_SECRET_ACCESS_KEY=<アクセスキー> \
   ryicoh/globalip-route53
 ```
